@@ -35,7 +35,7 @@ For example:
         rclass: virtual
         package_type: rpm
         repositories:
-        - local.OL8_EPEL"
+        - local.OL8_EPEL
 
 To run the py_artifactory_sync.py script, run `git clone https://github.com/danarchy85/py_artifactory_sync.git`
 once those configurations are in place, and then run `source ./setup.sh`, which will create a virtualenv
