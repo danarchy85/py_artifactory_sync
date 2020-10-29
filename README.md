@@ -7,7 +7,7 @@ The script depends on ArtificerRuby to generate configurations for authenticatio
 repository groups and to cache the remote repository's artifacts, so run that first from
 https://github.com/danarchy85/artificer_ruby/
 
-The ArtificerRuby::Routine `cache_remote_repository` will caching the remote repository, so
+The ArtificerRuby::Routine `cache_remote_repository` will cache the remote repository, so
 that this script is able to copy those cached files. The default repository_groups.yaml
 ArtificerRuby comes with assumes this with a limit `- 5` to minimize the amount of data
 copied in this example.
