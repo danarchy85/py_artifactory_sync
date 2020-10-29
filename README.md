@@ -1,7 +1,7 @@
 # py_artifactory_sync.py
 
-This branch is specifically for a python script which compares a remote repository to a
-local repository and copies over new or modified files.
+This python script compares a remote repository to a local repository and copies over
+new or modified files.
 
 The script depends on ArtificerRuby to generate configurations for authentication and
 repository groups and to cache the remote repository's artifacts, so run that first from
